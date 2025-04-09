@@ -6,40 +6,44 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <div class="header">
-        <img class="header-img" src="./imgs/logo.png" alt="logo">
-        <img class="line" src="./imgs/borderline.png" alt="borderline">
-    </div>
-    <div class="profile">
-        <img src="./imgs/avatar.png" alt="avatar">
-        <div class="profile-inf">
-            <button class="profile-img"><img src="./imgs/edit-btn.png" alt="edit-btn"></button>
-            <h2 class="profile-h2">Nathan Dreik</h2>
-            <h3 class="profile-h3">Developer</h3>          
-        </div>
-        <div class="profile-btn">
-            <button class="profile-add"><img src="./imgs/delete-btn.png" alt="delete-btn"></button>
-            <button class="profile-add"><img src="./imgs/add-btn.png" alt="add-btn"></button> 
-        </div>
-    </div>
-    <div class="main">
-        <div class="product">
-            <div class="products">
-                <img class="product-img" src="./imgs/forest.png" alt="forest">
-                <button class="product-trash"><img  src="./imgs/trash-btn.png" alt="trash-btn"></button>
-                <div class="product-under">
-                <h2 class="product-h2">FOREST</h2>
-                <button class="product-btn1"><img class="product-hrt" src="./imgs/like-btn.png" alt="like-btn"></button>
+<body class="page">
+    <header class="header">
+        <img class="header__logo-img" src="./imgs/logo.png" alt="logo">
+        <img class="header__line-img" src="./imgs/borderline.png" alt="borderline">
+    </header>
+    <main class="content">
+        <section class="profile">
+            <div class="profile__bio">
+                <img class="profile__avatar-img" src="./imgs/avatar.png" alt="avatar">
+                <div class="profile__info">
+                    <button class="profile__edit-btn"><img class="profile__edit-img" src="./imgs/edit-btn.png" alt="edit-btn"></button>
+                    <h2 class="profile__name">Nathan Dreik</h2>
+                    <h3 class="profile__job">Developer</h3>          
                 </div>
             </div>
-        </div>
-    </div>
-    <div class="footer-line" >
-        <img src="./imgs/borderline.png" alt="borderline">
-    </div>
+            <div class="profile__activities-btns">
+                <button class="profile__delete-btn"><img src="./imgs/delete-btn.png" alt="delete-btn"></button>
+                <button class="profile__add-btn"><img class="profile__add-img" src="./imgs/add-btn.png" alt="add-btn"></button> 
+            </div>
+        </section>
+        <section class="gallery">
+            <div class="gallery__card">
+                <img class="gallery__card-main-img" src="./imgs/forest.png" alt="forest">
+                <button class="gallery__card-trash-btn"><img class="gallery__card-trash-img" src="./imgs/trash-btn.png" alt="trash-btn"></button>
+                <div class="gallery__card-text">
+                    <h2 class="gallery__card-title">FOREST</h2>
+                    <button class="gallery__card-like-btn"><img class="gallery__card-like-img" src="./imgs/like-btn.png" alt="like-btn"></button>
+                </div>
+            </div>
+        </section>
+    </main>
     <footer class="footer">
-        <img src="./imgs/logo.png" alt="logo">
+        <div class="footer__under-line-img">
+            <img class="footer__line-img" src="./imgs/borderline.png" alt="borderline">
+        </div>
+        <div class="footer__under-logo-img">
+            <img class="footer__logo-img" src="./imgs/logo.png" alt="logo">
+        </div>
     </footer>
 </body>
 </html>
