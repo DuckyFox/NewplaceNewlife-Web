@@ -1,0 +1,6 @@
+.profile__bio{
+    display: flex;
+    justify-content: space-between;
+    max-width: 512px;
+    width: 100%;
+}

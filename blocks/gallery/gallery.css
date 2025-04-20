@@ -1,0 +1,15 @@
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 0px solid white;
+    border-radius: 10%;
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 43px;
+    position: relative;
+    border: 0px solid white;
+    border-radius: 10%;
+    padding-top: 43px;
+}
