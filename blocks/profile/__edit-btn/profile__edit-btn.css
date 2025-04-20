@@ -1,0 +1,8 @@
+.profile__edit-btn{
+    position: absolute;
+    right: 1%;
+    top: 0%;
+    bottom: 1%;
+    background-color: #101010;
+    border:none;
+}

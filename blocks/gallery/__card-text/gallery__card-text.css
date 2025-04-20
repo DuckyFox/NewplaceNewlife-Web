@@ -1,0 +1,6 @@
+.gallery__card-text{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 20px 10px;
+}
